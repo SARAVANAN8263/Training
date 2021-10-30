@@ -3,7 +3,6 @@
 int main()
 {
 int a,b,i;
-clrscr();
 printf("Enter The Water Level:");
 scanf("%d",&a);
 printf("Enter The Max Water Level:");
@@ -20,9 +19,9 @@ for(i=b;i>=a;i--)
 {
 printf("Water is %d Level\n",i);
 {
-if(i==0)
+if(i==a)
 {
-printf("Tank Empty %d",i);
+printf("Tank Empty ");
 }
 }
 }
